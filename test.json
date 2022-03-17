@@ -1,0 +1,27 @@
+{
+  "Response": "Success",
+  "Message": "",
+  "HasWarning": false,
+  "Type": 100,
+  "RateLimit": {},
+  "Data": {
+    "Aggregated": false,
+    "TimeFrom": 1637280000,
+    "TimeTo": 1645833600,
+    "Data": {
+      "time": 1637280000,
+      "high": 58403.92,
+      "low": 55655.03,
+      "open": 56930.68,
+      "volumefrom": 36833.38,
+      "volumeto": 2107344590.7,
+      "close": 58136.22,
+      "conversionType": "direct",
+      "conversionSymbol": {
+        "Data": {
+          "some more": 1
+        }
+      }
+    }
+  }
+}
