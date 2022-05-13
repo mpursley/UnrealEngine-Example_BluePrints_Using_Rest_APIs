@@ -1,7 +1,6 @@
 ## Start Docker
 open /Applications/Docker.app
 
-=======
 ## Use this to choose your docker Cluster
 kubectx docker-desktop
 
