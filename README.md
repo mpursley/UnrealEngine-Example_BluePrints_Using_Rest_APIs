@@ -12,6 +12,8 @@ This is an Unreal Engine 4 project (using only Blueprints and the [VARest Plugin
 
 ![image](https://user-images.githubusercontent.com/3343322/158944507-0fb1a944-835d-4cb9-a46b-0c9025f2e0dc.png)
 
+![image](https://user-images.githubusercontent.com/3343322/158954876-3039f78c-82df-4da9-8773-aab4ec1b8967.png)
+
 ![image](https://user-images.githubusercontent.com/3343322/158945137-6cc3afb5-072a-4e93-ba4b-c7da581cad3d.png)
 
 ![image](https://user-images.githubusercontent.com/3343322/158747343-a7ad87de-2fb5-4d93-aaff-5b2ceb8f37a8.png)
