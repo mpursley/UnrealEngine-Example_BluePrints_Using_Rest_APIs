@@ -4,8 +4,8 @@ This is an Unreal Engine 4 project (using only Blueprints and the [VARest Plugin
 
 ## Rest APIs
 - Kubernetes API: using  "http://localhost:8080" (e.g. from local [docker desktop](https://www.docker.com/products/docker-desktop), [Google GCP/GKE](https://cloud.google.com/kubernetes-engine), [AWS EKS](https://aws.amazon.com/eks/), https://unrealcontainers.com/, etc)
-- [Prometheus](https://prometheus.io/) metrics
-- Financial prices: (e.g. Stocks, [BTC Bitcoin](https://min-api.cryptocompare.com/data/v2/histohour?fsym=BTC&tsym=USD&limit=99), [ETH Ethereum](https://min-api.cryptocompare.com/data/v2/histohour?fsym=ETH&tsym=USD&limit=99), etc)
+- [Prometheus](https://prometheus.io/) Metrics:  Load Prometheus metrics from the standard Prometheus API into charts/graphs.
+- Financial Prices: (e.g. Stocks, [BTC Bitcoin](https://min-api.cryptocompare.com/data/v2/histohour?fsym=BTC&tsym=USD&limit=99), [ETH Ethereum](https://min-api.cryptocompare.com/data/v2/histohour?fsym=ETH&tsym=USD&limit=99), etc) Loads historical (e.g. last hour) prices for any Crypto token price from https://min-api.cryptocompare.com.
 - Web Images: using the UE builting [Download Image]([url](https://docs.unrealengine.com/4.27/en-US/BlueprintAPI/Class/AsyncTaskDownloadImage/DownloadImage/)) node.  Allow to load any number of "screens" that can have any images from the web attached.  Use "I" to spawn a new screen, "O" to remove the nearest screen and "K" to remove all the WebImage screens.
 
 ## Screenshots
