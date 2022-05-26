@@ -3,9 +3,10 @@
 This is an Unreal Engine 4 project (using only Blueprints and the [VARest Plugin](https://github.com/ufna/VaRest)), that gets data from various Rest APIs and then visualizes that data in various formats (e.g. charts, "racks", block layout of nested json data, etc).
 
 ## Rest APIs
-- Kubernetes API using  "http://localhost:8080" (e.g. from local [docker desktop](https://www.docker.com/products/docker-desktop), [Google GCP/GKE](https://cloud.google.com/kubernetes-engine), [AWS EKS](https://aws.amazon.com/eks/), https://unrealcontainers.com/, etc)
+- Kubernetes API: using  "http://localhost:8080" (e.g. from local [docker desktop](https://www.docker.com/products/docker-desktop), [Google GCP/GKE](https://cloud.google.com/kubernetes-engine), [AWS EKS](https://aws.amazon.com/eks/), https://unrealcontainers.com/, etc)
 - [Prometheus](https://prometheus.io/) metrics
-- Financial prices (e.g. Stocks, [BTC Bitcoin](https://min-api.cryptocompare.com/data/v2/histohour?fsym=BTC&tsym=USD&limit=99), [ETH Ethereum](https://min-api.cryptocompare.com/data/v2/histohour?fsym=ETH&tsym=USD&limit=99), etc)
+- Financial prices: (e.g. Stocks, [BTC Bitcoin](https://min-api.cryptocompare.com/data/v2/histohour?fsym=BTC&tsym=USD&limit=99), [ETH Ethereum](https://min-api.cryptocompare.com/data/v2/histohour?fsym=ETH&tsym=USD&limit=99), etc)
+- Web Images: using the UE builting [Download Image]([url](https://docs.unrealengine.com/4.27/en-US/BlueprintAPI/Class/AsyncTaskDownloadImage/DownloadImage/)) node.  Allow to load any number of "screens" that can have any images from the web attached.  Use "I" to spawn a new screen, "O" to remove the nearest screen and "K" to remove all the WebImage screens.
 
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/3343322/155474236-354ba975-a07c-4c39-8256-0ddf13a5e887.png)
@@ -21,6 +22,14 @@ This is an Unreal Engine 4 project (using only Blueprints and the [VARest Plugin
 ![image](https://user-images.githubusercontent.com/3343322/158682443-ea0a26ea-5022-4607-bd7f-f74e7f701685.png)
 
 ![image](https://user-images.githubusercontent.com/3343322/158682510-a9c6b2c3-427a-4847-ad61-ee7034da2efe.png)
+
+![Screenshot 2022-05-26 134614](https://user-images.githubusercontent.com/3343322/170578038-c8026f19-be4d-43f0-bf0c-30480af1484b.jpg)
+
+![Screenshot 2022-05-26 134650](https://user-images.githubusercontent.com/3343322/170578095-14bfd16c-6843-48ad-8269-a80faa3071e3.jpg)
+
+
+
+
 
 ## How to Load/Use
 
