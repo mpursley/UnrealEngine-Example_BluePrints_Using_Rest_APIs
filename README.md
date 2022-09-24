@@ -2,7 +2,8 @@
 
 This is an "Unreal Engine 4" UE4 project (using only Blueprints and the [VARest Plugin](https://github.com/ufna/VaRest)), that gets data from various Rest APIs and then visualizes that data in various formats (e.g. charts, "racks", block layout of nested json data, etc).
 
-Note: For an "Unreal Engine 5" UE5 version (built on top of the Lyra example project) see here... https://github.com/mpursley/Lyra_Inventory
+Note: For an "Unreal Engine 5" UE5 version (built on top of the Lyra example project) see here... 
+https://github.com/mpursley/Lyra_Inventory
 
 ## Rest APIs
 - Kubernetes API: using  "http://localhost:8080" (e.g. from local [docker desktop](https://www.docker.com/products/docker-desktop), [Google GCP/GKE](https://cloud.google.com/kubernetes-engine), [AWS EKS](https://aws.amazon.com/eks/), https://unrealcontainers.com/, etc)
